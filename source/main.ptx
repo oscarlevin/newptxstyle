@@ -1,0 +1,236 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<pretext xml:lang="en-US">
+
+  <docinfo>
+    <macros>
+      \newcommand{\R}{\mathbb R}
+    </macros>
+  </docinfo>
+
+  <book xml:id="my-great-book">
+    <title>My Great Book</title>
+    <subtitle>An example to get you started</subtitle>
+
+    <frontmatter xml:id="frontmatter">
+      <titlepage>
+        <author>
+          <personname>You</personname>
+          <department>Your department</department>
+          <institution>Your institution</institution>
+        </author>
+        <date>
+          <today />
+        </date>
+      </titlepage>
+
+      <colophon>
+
+        <website>
+          <name>
+            <c>example.org</c>
+          </name>
+          <address>https://example.org</address>
+        </website>
+
+        <copyright>
+          <year>2020<ndash />2023</year>
+          <holder>You</holder>
+          <shortlicense> 
+            This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit <url href="http://creativecommons.org/licenses/by-sa/4.0/" visual="creativecommons.org/licenses/by-sa/4.0"> CreativeCommons.org</url>
+          </shortlicense>
+        </copyright>
+      </colophon>
+    </frontmatter>
+
+    <chapter xml:id="chapter-intro">
+      <title>Introduction</title>
+
+      <section xml:id="section-gs">
+        <title>Getting started</title>
+        <p>Hello there</p>
+
+        <p>
+          mNihilne te nocturnum praesidium Palati, nihil urbis vigiliae. Salutantibus vitae elit
+          libero, a pharetra augue. Quam diu etiam furor iste tuus nos eludet? Fabio vel iudice
+          vincam, sunt in culpa qui officia. Quam temere in vitiis, legem sancimus haerentia.
+          Quisque ut dolor gravida, placerat libero vel, euismod.
+        </p>
+        <p>
+          mFabio vel iudice vincam, sunt in culpa qui officia. Inmensae subtilitatis, obscuris et
+          malesuada fames. Ambitioni dedisse scripsisse iudicaretur. Nec dubitamus multa iter quae
+          et nos invenerat. Petierunt uti sibi concilium totius Galliae in diem certam indicere.
+        </p>
+        <p>
+          mCurabitur est gravida et libero vitae dictum. Quisque ut dolor gravida, placerat libero
+          vel, euismod. Magna pars studiorum, prodita quaerimus. Lorem ipsum dolor sit amet,
+          consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua.
+          mLorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut
+          labore et dolore magna aliqua. Me non paenitet nullum festiviorem excogitasse ad hoc.
+          Ambitioni dedisse scripsisse iudicaretur. Unam incolunt Belgae, aliam Aquitani, tertiam.
+          Morbi fringilla convallis sapien, id pulvinar odio volutpat. A communi observantia non est
+          recedendum.
+          Curabitur blandit tempus ardua ridiculus sed magna. Sed haec quis possit intrepidus
+          aestimare tellus. Quisque ut dolor gravida, placerat libero vel, euismod. Plura mihi bona
+          sunt, inclinet, amari petere vellent.
+        </p>
+
+        <theorem xml:id="thm-lorem">
+          <statement>
+            <p>
+              mPlura mihi bona sunt, inclinet, amari petere vellent. Ab illo tempore, ab est sed
+              immemorabili. Ullamco laboris nisi ut aliquid ex ea commodi consequat. Quae vero
+              auctorem tractata ab fiducia dicuntur. At nos hinc posthac, sitientis piros Afros.
+            </p>
+          </statement>
+          <proof>
+            <p>
+              mA communi observantia non est recedendum. Vivamus sagittis lacus vel augue laoreet
+              rutrum faucibus. Nihilne te nocturnum praesidium Palati, nihil urbis vigiliae.
+              Petierunt uti sibi concilium totius Galliae in diem certam indicere. Morbi fringilla
+              convallis sapien, id pulvinar odio volutpat. A communi observantia non est recedendum.
+              Ab illo tempore, ab est sed immemorabili. Cum sociis natoque penatibus et magnis dis
+              parturient. Quam diu etiam furor iste tuus nos eludet? Ut enim ad minim veniam, quis
+              nostrud exercitation.
+              Morbi fringilla convallis sapien, id pulvinar odio volutpat. Hi omnes lingua,
+              institutis, legibus inter se differunt. Non equidem invideo, miror magis posuere velit
+              aliquet. Quid securi etiam tamquam eu fugiat nulla pariatur. Inmensae subtilitatis,
+              obscuris et malesuada fames. Fictum, deserunt mollit anim laborum astutumque!
+            </p>
+            <p>
+              emAb illo tempore, ab est sed immemorabili. Cum sociis natoque penatibus et magnis dis
+              parturient. Quam diu etiam furor iste tuus nos eludet? Ut enim ad minim veniam, quis
+              nostrud exercitation.
+              Plura mihi bona sunt, inclinet, amari petere vellent. Ab illo tempore, ab est sed
+              immemorabili. Ullamco laboris nisi ut aliquid ex ea commodi consequat. Quae vero
+              auctorem tractata ab fiducia dicuntur. At nos hinc posthac, sitientis piros Afros.
+            </p>
+          </proof>
+        </theorem>
+        
+
+      </section>
+
+      <section xml:id="sec-another-part-1">
+        <title>Another, part 1</title>
+        <p>
+          This is another section
+        </p>
+      </section>
+      <section xml:id="sec-another-part-2">
+        <title>Another, part 2</title>
+        <p>
+          This is another section
+        </p>
+      </section>
+    </chapter>
+    
+    <chapter xml:id="ch-two">
+      <title>Second Chapter</title>
+      <section xml:id="sec-long">
+        <title>A section with a really long title</title>
+        <subsection xml:id="subsec-a-subsection">
+          <title>A subsection</title>
+          <p>
+            mLorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut
+            labore et dolore magna aliqua. Donec sed odio operae, eu vulputate felis rhoncus.
+            Salutantibus vitae elit libero, a pharetra augue. Nihil hic munitissimus habendi senatus
+            locus, nihil horum? A communi observantia non est recedendum.
+          </p>
+
+        </subsection>
+      <subsection xml:id="subsec-second">
+        <title>Second</title>
+        <p>
+            emNon equidem invideo, miror magis posuere velit aliquet. Quisque placerat facilisis
+            egestas cillum dolore. Curabitur blandit tempus ardua ridiculus sed magna. Contra legem
+            facit qui id facit quod lex prohibet. Petierunt uti sibi concilium totius Galliae in
+            diem certam indicere.
+            Cum sociis natoque penatibus et magnis dis parturient. Curabitur blandit tempus ardua
+            ridiculus sed magna. Salutantibus vitae elit libero, a pharetra augue.
+        </p>
+      </subsection>
+      </section>
+    <section xml:id="sec-second-section">
+      <title>Second Section</title>
+      <subsection xml:id="subsec-two-3">
+        <title>two-3</title>
+        <p>
+            remNihilne te nocturnum praesidium Palati, nihil urbis vigiliae. Salutantibus vitae elit
+            libero, a pharetra augue. Quam diu etiam furor iste tuus nos eludet? Fabio vel iudice
+            vincam, sunt in culpa qui officia. Quam temere in vitiis, legem sancimus haerentia.
+            Quisque ut dolor gravida, placerat libero vel, euismod.
+            A communi observantia non est recedendum. Vivamus sagittis lacus vel augue laoreet
+            rutrum faucibus. Nihilne te nocturnum praesidium Palati, nihil urbis vigiliae.
+            Cum sociis natoque penatibus et magnis dis parturient. Curabitur blandit tempus ardua
+            ridiculus sed magna. Salutantibus vitae elit libero, a pharetra augue.
+        </p>
+      </subsection>
+    </section>
+    </chapter>
+
+    <chapter xml:id="ch-third">
+      <title>Third</title>
+      <p>
+        emPetierunt uti sibi concilium totius Galliae in diem certam indicere. Morbi fringilla
+        convallis sapien, id pulvinar odio volutpat. A communi observantia non est recedendum.
+        Curabitur blandit tempus ardua ridiculus sed magna. Sed haec quis possit intrepidus
+        aestimare tellus. Quisque ut dolor gravida, placerat libero vel, euismod. Plura mihi bona
+        sunt, inclinet, amari petere vellent.
+        Nihilne te nocturnum praesidium Palati, nihil urbis vigiliae. Salutantibus vitae elit
+        libero, a pharetra augue. Quam diu etiam furor iste tuus nos eludet? Fabio vel iudice
+        vincam, sunt in culpa qui officia. Quam temere in vitiis, legem sancimus haerentia. Quisque
+        ut dolor gravida, placerat libero vel, euismod.
+      </p>
+    </chapter>
+    <chapter xml:id="ch-the-fourth">
+      <title>The Fourth</title>
+      <p>
+        emNon equidem invideo, miror magis posuere velit aliquet. Quisque placerat facilisis egestas
+        cillum dolore. Curabitur blandit tempus ardua ridiculus sed magna. Contra legem facit qui id
+        facit quod lex prohibet. Petierunt uti sibi concilium totius Galliae in diem certam
+        indicere.
+        Fictum, deserunt mollit anim laborum astutumque! Quisque placerat facilisis egestas cillum
+        dolore. Nec dubitamus multa iter quae et nos invenerat. Contra legem facit qui id facit quod
+        lex prohibet. Quam diu etiam furor iste tuus nos eludet?
+        Curabitur blandit tempus ardua ridiculus sed magna. Sed haec quis possit intrepidus
+        aestimare tellus. Quisque ut dolor gravida, placerat libero vel, euismod. Plura mihi bona
+        sunt, inclinet, amari petere vellent.
+        Plura mihi bona sunt, inclinet, amari petere vellent. Ab illo tempore, ab est sed
+        immemorabili. Ullamco laboris nisi ut aliquid ex ea commodi consequat. Quae vero auctorem
+        tractata ab fiducia dicuntur. At nos hinc posthac, sitientis piros Afros.
+      </p>
+    </chapter>
+  <chapter xml:id="ch-final-word">
+    <title>Final Word</title>
+    <section xml:id="sec-in-two-section">
+      <title>In two section</title>
+      <p>
+          mLorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut
+          labore et dolore magna aliqua. Donec sed odio operae, eu vulputate felis rhoncus.
+          Salutantibus vitae elit libero, a pharetra augue. Nihil hic munitissimus habendi senatus
+          locus, nihil horum? A communi observantia non est recedendum.
+      </p>
+    </section>
+  <section xml:id="sec-of-which-this-is-the-second">
+    <title>Of which this is the second</title>
+    <p>
+          emMorbi fringilla convallis sapien, id pulvinar odio volutpat. Hi omnes lingua,
+          institutis, legibus inter se differunt. Non equidem invideo, miror magis posuere velit
+          aliquet. Quid securi etiam tamquam eu fugiat nulla pariatur. Inmensae subtilitatis,
+          obscuris et malesuada fames. Fictum, deserunt mollit anim laborum astutumque!
+    </p>
+  </section>
+  </chapter>
+    <backmatter xml:id="backmatter">
+      <title>Backmatter</title>
+
+      <colophon>
+        <p>
+          This book was authored in <pretext />. </p>
+      </colophon>
+
+    </backmatter>
+
+  </book>
+</pretext>
